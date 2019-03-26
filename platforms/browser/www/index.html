@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--
+   Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+   
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+   
+   http://www.apache.org/licenses/LICENSE-2.0
+   
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+   -->
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="msapplication-tap-highlight" content="no" />
+      <meta
+         name="viewport"
+         content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
+         />
+      <!--The three things that we need jQuery to work-->
+      <link
+         rel="stylesheet"
+         href="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css"
+         />
+      <script
+         src="js/vendor/jquery/jquery-1.11.1.min.js"
+         type="text/javascript"
+         ></script>
+      <script
+         src="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"
+         type="text/javascript"
+         ></script>
+      <meta
+         http-equiv="Content-Security-Policy"
+         content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"
+         />
+      <link rel="stylesheet" type="text/css" href="css/css/bootstrap.css" />
+      <title>Hello World</title>
+   </head>
+   <body>
+      <!--HOME SCREEN PAGE-->
+      <section id="homeScreen" data-role="page">
+         <header data-role="header" data-position="fixed">
+            <!--NAVBAR-->
+            <nav class="navbar navbar-light bg-light">
+               <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+               <img src="img/amys-logo.png" alt="">
+               </a>
+            </nav>
+         </header>
+         <!--Start App-->
+         <div class="app">
+            <div class="events-home">
+               <img src="img/about-us.jpg" alt="" />
+               <div class="centered-text">
+                  <h3><a href="#about-us">About Us</a></h3>
+               </div>
+            </div>
+            <div class="events-home">
+               <img src="img/upcoming-events.jpg" alt="" />
+               <div class="centered-text">
+                  <h3><a href="#upcoming-events">Upcoming Events</a></h3>
+               </div>
+            </div>
+            <div class="events-home">
+               <img src="img/blog.jpg" alt="" />
+               <div class="centered-text">
+                  <h3><a href="#blog">Blog</a></h3>
+               </div>
+            </div>
+            <div class="events-home">
+               <img src="img//contact.jpg" alt="" />
+               <div class="centered-text">
+                  <h3><a href="#contact-page">Contact</a></h3>
+               </div>
+            </div>
+         </div>
+         <footer data-role="footer" data-position="fixed">
+            <h4>© 2019 AMYS Martial Arts</h4>
+         </footer>
+      </section>
+      <!--END HOME SCREEN PAGE -->
+      <!--ABOUT US PAGE-->
+      <section id="about-us" data-role="page">
+         <header data-role="header" data-position="fixed">
+            <!--NAVBAR-->
+            <nav class="navbar navbar-light bg-light">
+               <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+               <img src="img/amys-logo.png" alt="">
+               </a>
+            </nav>
+         </header>
+         <body>
+            <div style="padding: 25px">
+               <h3>About AMYS</h3>
+               <br>
+               <br>
+               <img src="img/about.jpg" alt="" style="width: 100%;">
+               <br>
+               <br>
+               <p>AMYS Martial Arts is an international family oriented martial arts school. Our main goal is to teach our students confidence, discipline, respect and focus This helps them achieve their goals and to strive for excellence in all parts of their lives. We are affiliated with the Utah State Taekwondo Association, USA-Taekwondo, Pan American Taekwondo Union, Kukkiwon and the World Taekwondo Federation.</p>
+            </div>
+   </body>
+   <footer data-role="footer" data-position="fixed">
+   <h4>© 2019 AMYS Martial Arts</h4>
+   </footer>
+   </section>
+   <!--END ABOUT US PAGE-->
+   <!--UPCOMING EVENTS PAGE-->
+   <section id="upcoming-events" data-role="page">
+      <header data-role="header" data-position="fixed">
+         <!--NAVBAR-->
+         <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+            <img src="img/amys-logo.png" alt="">
+            </a>
+         </nav>
+      </header>
+      <body>
+         <div style="padding: 25px;">
+            <div data-role="collapsible">
+               <h3>Upcoming Events</h3>
+                   
+               <h4>Parents Night Out!</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>Summer Camps!</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>Spring Break Camp!</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>Black Belt Testing!</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>National Championships</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>Utah State Tournament</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div data-role="collapsible">
+                   
+               <h4>President's Cup Tournament</h4>
+                   
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+         </div>
+      </body>
+      <footer data-role="footer" data-position="fixed">
+         <h4>© 2019 AMYS Martial Arts</h4>
+      </footer>
+   </section>
+   <!--END UPCOMING EVENTS PAGE-->
+   <!--BLOG PAGE-->
+   <section id="blog" data-role="page">
+      <header data-role="header" data-position="fixed">
+         <!--NAVBAR-->
+         <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+            <img src="img/amys-logo.png" alt="">
+            </a>
+         </nav>
+      </header>
+      <body>
+         <div style="padding:25px;">
+            <h3>Our Recent Blog Posts</h3>
+            <ul data-role="listview">
+                   
+               <li><a href="#blog-post-1">3/26/2019 - Is Martial Arts Good For You?</a></li>
+                   
+               <li><a href="#">3/16/2019 - The Benefits of Focus!</a></li>
+                   
+               <li><a href="#">3/06/2019 - Our Kids are Awesome!</a></li>
+                   
+               <li><a href="#">2/24/2019 - Our New Program!</a></li>
+                   
+               <li><a href="#">2/14/2019 - You're Going to Love This!</a></li>
+            </ul>
+         </div>
+      </body>
+      <footer data-role="footer" data-position="fixed">
+         <h4>© 2019 AMYS Martial Arts</h4>
+      </footer>
+   </section>
+   <!--END BLOG PAGE-->
+   <!--BLOG POST 1-->
+   <section id="blog-post-1" data-role="page">
+      <header data-role="header" data-position="fixed">
+         <!--NAVBAR-->
+         <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+            <img src="img/amys-logo.png" alt="">
+            </a>
+         </nav>
+      </header>
+      <body>
+         <div style="padding:25px;">
+            <h3>Is Martial Arts Good For You?</h3>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+         </div>
+      </body>
+      <footer data-role="footer" data-position="fixed">
+         <h4>© 2019 AMYS Martial Arts</h4>
+      </footer>
+   </section>
+   <!--END BLOG POST 1-->
+   <!--BLOG POST 2-->
+   <section id="blog-post-1" data-role="page">
+      <header data-role="header" data-position="fixed">
+         <!--NAVBAR-->
+         <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+            <img src="img/amys-logo.png" alt="">
+            </a>
+         </nav>
+      </header>
+      <body>
+         <div style="padding:25px;">
+            <h3>The Benefits of Focus!</h3>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+         </div>
+      </body>
+      <footer data-role="footer" data-position="fixed">
+         <h4>© 2019 AMYS Martial Arts</h4>
+      </footer>
+   </section>
+   <!--END BLOG POST 2-->
+   <!--CONTACT PAGE-->
+   <section id="contact-page" data-role="page">
+      <header data-role="header" data-position="fixed">
+         <!--NAVBAR-->
+         <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#homeScreen" style="color:#7e7e7e;">Home</a>
+            <img src="img/amys-logo.png" alt="">
+            </a>
+         </nav>
+      </header>
+      <body>
+         <div style="padding:25px;">
+            <form>
+               <h3>Contact Us Today!</h3>
+               <label for="textinput-2">Name</label>
+               <input type="text" name="textinput-2" id="textinput-2" placeholder="Text input" value="John Doe">
+               <label for="textinput-2">Email</label>
+               <input type="text" name="textinput-2" id="textinput-2" placeholder="Text input" value="email@email.com">
+               <label for="textinput-2">Phone</label>
+               <input type="tel" name="textinput-2" id="textinput-2" placeholder="Text input" value="555-555-5555">
+               <fieldset data-role="controlgroup" data-mini="true">
+                      
+                  <legend>I'm Interested In</legend>
+                      <input type="radio" name="radio-choice-v-6" id="radio-choice-v-6a" value="on" checked="checked">
+                      <label for="radio-choice-v-6a">Martial Arts</label>
+                      <input type="radio" name="radio-choice-v-6" id="radio-choice-v-6b" value="off">
+                      <label for="radio-choice-v-6b">Summer Camps</label>
+                      <input type="radio" name="radio-choice-v-6" id="radio-choice-v-6c" value="other">
+                      <label for="radio-choice-v-6c">After School Program</label>
+               </fieldset>
+               <label for="slider-2">Age</label>
+               <input type="range" name="slider-2" id="slider-2" value="50" min="0" max="100" data-highlight="true">
+               <label for="submit-6"></label>
+               <button type="submit" id="submit-6" class="ui-shadow ui-btn ui-corner-all ui-mini" style="max-width: 150px; margin-top:20px;">Submit</button>
+            </form>
+         </div>
+      </body>
+      <footer data-role="footer" data-position="fixed">
+         <h4>© 2019 AMYS Martial Arts</h4>
+      </footer>
+   </section>
+   <!--END CONTACT PAGE-->
+   <script type="text/javascript" src="cordova.js"></script>
+   <script type="text/javascript" src="js/index.js"></script>
+   <script type="text/javascript" src="js/js/bootstrap.js"></script>
+   <script type="text/javascript">
+      app.initialize();
+   </script>
+   </body>
+</html>
